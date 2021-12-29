@@ -7,12 +7,19 @@ int main() {
     cin>>n;
     int i=1;
     char c='A';
+    
+    //loop for columns
     while(i<=n) {
+        
         int j=1;
+        
+        //loop for rows
         while(j<=n) {
+            
             cout<<c<<" ";
             c++;
             j++;
+            
         }
         cout<<"\n";
         i++;
