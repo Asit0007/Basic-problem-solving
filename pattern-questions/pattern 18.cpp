@@ -10,11 +10,13 @@ int main() {
     int i=1;
     int count=n;
     int start=1;
-
+    
+    //loop for columns
     while(i<=n) {
 
         int j=1;
-    
+        
+        //loop for rows
         while(j<=n) {
             if (j>=count) {
                 cout<<start<<"\t";
@@ -34,3 +36,16 @@ int main() {
         i++;
     }
 }
+
+/*
+
+Sample input:
+Enter number of rows : 4
+
+Expected output:
+                        1
+                2       3
+        4       5       6
+7       8       9       10
+
+*/
