@@ -36,3 +36,16 @@ int main() {
        
     }
 }
+
+/*
+
+Sample input:
+Enter no of rows 4
+   
+Expected output:   
+   1
+  121
+ 12321
+1234321
+
+*/
