@@ -1,4 +1,7 @@
+//variable space
 var n = 1;
+
+//performing fuzzbuzz for first 100 numbers
 while (n<=100) {
       var output ="";
       if (n%3==0) output+"fizz";
